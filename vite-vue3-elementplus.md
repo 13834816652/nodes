@@ -18,3 +18,9 @@ cd [project_name]
 pnpm install	
 ```
 
+``安装typescript``
+
+```bash
+pnpm add -D typescript
+```
+
