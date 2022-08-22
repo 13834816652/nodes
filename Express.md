@@ -98,3 +98,15 @@ require("./swagger")(app);
  * */
 ```
 
+## 跨域
+
+使用cors
+
+### 安装cors
+
+```bash
+yarn add cors
+```
+
+
+
