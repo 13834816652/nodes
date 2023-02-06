@@ -9,7 +9,7 @@ docker pull mysql:5.7
 ### 启动容器
 
 ```bash
-docker run -d --name db -v/home/mysql/data:/var/lib/mysql  -v /home/mysql/conf:/etc/mysql/config.d -e MYSQL_ROOT_PASSWORD=root -p 3306:3306 mysql:5.7 --lower_case_table_names=1
+docker run -d --name db -v/home/mysql/data:/var/lib/mysql  -v /home/mysql/conf:/etc/mysql/config.d -e MYSQL_ROOT_PASSWORD=485374 -p 3306:3306 mysql:5.7 --lower_case_table_names=1
 ```
 
 ##### -d：后台启动

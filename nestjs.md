@@ -100,12 +100,14 @@ $ nest g co user
 yarn add @nestjs/jwt passport-jwt @types/passport-jwt
 ```
 
+权限模块auto
+
 ```bash
-nest g mo jwt
+nest g mo auto
 //新建模块
-nest g s jwt
+nest g s auto
 //新建服务
-nest g co jwt
+nest g co auto
 ```
 
 ## cors
